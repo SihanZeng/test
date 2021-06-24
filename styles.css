@@ -1,0 +1,174 @@
+/*make all h1 headers bold*/
+h1 {
+	font-weight: 700;
+}
+/*allign all common text to center and font family to Helvetica*/
+h1, h3, p, li, h4, .hobby-category{
+	text-align: center;
+	font-family: Helvetica;
+}
+/*make hobby category headers less bold*/
+.hobby-category{
+	font-size: 20px;
+	font-weight: 600;
+}
+/*make all common images 800 x 400 and align center with 1 second transition on width and height*/
+img{
+	width: 800px;
+	height: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: width 1s, height 1s;
+}
+/*make valorant and league of legends logo 400 x 400*/
+#valorant-logo, #league-logo, .valorant-agent{
+	width: 400px;
+	height: 400px;
+	transition: width 1s, height 1s;
+}
+/*make valorant and league of legends logo expand to 1.5x their original size when hovered over*/
+#valorant-logo:hover, #league-logo:hover{
+	width: 600px;
+	height: 600px;
+}
+/*make all other images expand to 1.5x their original size when hovered over*/
+#genshin-logo:hover, #phasmophobia-logo:hover, #table_tennis-image:hover, #badminton-image:hover, #swimming-image:hover, #piano-image:hover, #doctor-image:hover, #hosa-image:hover{
+	width: 1200px;
+	height: 600px;
+}
+/*make the viola image 300 x 400*/
+#viola-image{
+	width: 300px;
+	height: 400px;
+}
+/*make the viola image 1.5x its original size whe hovered over*/
+#viola-image:hover{
+	width: 450px;
+	height: 600px;
+}
+/*make the musical image 500 x 400*/
+#musical-image{
+	width: 500px;
+	height: 400px;
+}
+/*make the musical image 1.5x its original size when hovered over*/
+#musical-image:hover{
+	width: 750px;
+	height: 600px;
+}
+/*align all headings to center*/
+.headings{
+	text-align: center;
+}
+/*make sihan's images 300 x 400 on the same line spaced apart*/
+.sihan-image{
+	width: 300px;
+	height: 400px;
+	display: inline;
+	margin-left: 25%;
+	transition: width 1s, height 1s;
+}
+/*make sihan's images 1.5x their original size when hovered over*/
+.sihan-image:hover{
+	width: 450px;
+	height: 600px;
+}
+/*make the valorant agents on the same line spaced apart*/
+.valorant-agent{
+	display: inline;
+	margin-left: 23%;
+}
+/*make the valorant agents 1.5x their original size when hovered over*/
+.valorant-agent:hover{
+	width: 600px;
+	height: 600px;
+}
+/*make the league of legends champions 300 x 300 and spaced apart on the same line*/
+.league-champion{
+	width: 300px;
+	height: 300px;
+	display: inline;
+	margin-left: 16%;
+	transition: width 1s, height 1s;
+}
+/*make the league of legends champions 1.5x their original size when hovered over*/
+.league-champion:hover{
+	width: 450px;
+	height: 450px;
+}
+/*make the genshin impact characters 250 x 450 spaced apart on the same line*/
+.genshin-character{
+	width: 250px;
+	display: inline;
+	margin-left: 8%;
+	transition: width 1s, height 1s;
+}
+#razor{
+	width: 500px;
+	display: inline;
+	margin-left: 8%;
+	transition: width 1s, height 1s;
+}
+#zhongli{
+	width: 275px;
+	display: inline;
+	margin-left: 8%;
+	transition: width 1s, height 1s;
+}
+/*make the genshin impact characters 1.5x their original size when hovered over*/
+.genshin-character:hover{
+	width: 350px;
+	height: 675px;
+}
+#razor:hover{
+	width: 750px;
+	height: 675px;
+}
+#zhongli:hover{
+	width: 412.5px;
+	height: 675px;
+}
+/*make the ping pong and badminton videos 300 x 200 centered on their own line*/
+#pingpong-video, #badminton-video{
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*make the common videos 300 x 500 centered on their own line*/
+.video{
+    width: 300px;
+	height: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*make html and css validator buttons 200 x 75 together on their own line*/
+#html-validator, #css-validator{
+	width: 200px;
+	height: 75px;
+	display: inline;
+	margin-left: 0%;
+}
+/*make the piano playing videos 300 x 500 on the same line*/
+.video-music{
+    width: 300px;
+	height: 500px;
+	display: inline;
+	margin-left: 10%;
+}
+/*make the table have a border and centered*/
+table, th, td{
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*make the citing points aligned to the left with font arial 20pixels large*/
+.citing li{
+	font-family: Arial;
+	font-size: 20px;
+	text-align: left;	
+}
